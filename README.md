@@ -1,10 +1,11 @@
 # InputPlus
 
-**InputPlus** is a custom Grasshopper plugin for Rhino 3D, built with .NET 7.0. It enhances the native input capabilities of Grasshopper by providing advanced UI components and utilities to streamline geometry and data interaction.
+**InputPlus** is a custom Grasshopper plugin for Rhino 3D, built with .NET 7.0. It enhances the native input capabilities of Grasshopper by enabling robust data persistence for referenced geometry.
 
 ## 🚀 Features
 
-- Extended input components for parametric design workflows.
+- Stores object data (e.g., Breps, Curves) **inside the Grasshopper document**.
+- Ensures that components retain their data **even if the original Rhino objects are deleted**.
 - Seamless integration with Grasshopper 8 and Rhino 8.
 - Lightweight, performance-optimized `.gha` plugin.
 - .NET 7.0 runtime support with desktop UI compatibility.
@@ -26,7 +27,7 @@
 
 ## 🧪 Usage
 
-Drag and drop the new input components from the **InputPlus** tab in the Grasshopper canvas.
+Use the InputPlus components to reference Rhino objects like Breps and Curves. Once referenced, the geometry data is stored directly within the Grasshopper file, so it remains accessible even if the original object in Rhino is deleted.
 
 *(Add images or gifs here demonstrating usage if available.)*
 
